@@ -1,7 +1,7 @@
 #include <cs50.h>
 #include <stdio.h>
 
-int sportItems(){
+void sportItems(void){
     float priceOne = 4.32;
     float priceTwo = 7.77;
     float priceThree = 12.44;
@@ -28,11 +28,10 @@ int sportItems(){
         printf("Your charge is for $ %.2f",priceThree); 
         printf("\n"); 
     }
-    return priceThree;
 }
 
 
-int UnderwearItems(){
+void UnderwearItems(void){
     float priceOne = 4.32;
     float priceTwo = 7.77;
     float priceThree = 12.44;
@@ -59,10 +58,9 @@ int UnderwearItems(){
         printf("Your charge is for $ %.2f",priceThree); 
         printf("\n"); 
     }
-    return priceThree;
 }
 
-int pantsItems(){
+void pantsItems(void){
     float priceOne = 34.00;
     float priceTwo = 45.00;
     float priceThree = 86.00;
@@ -89,7 +87,6 @@ int pantsItems(){
         printf("Your charge is for $ %.2f",priceThree); 
         printf("\n"); 
     }
-    return priceThree;
 }
 
 int main (void)
